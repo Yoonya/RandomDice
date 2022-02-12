@@ -1,0 +1,483 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.26f1 (7298b473bc1a) revision 7510196'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19043) 64bit Professional' Language: 'ko' Physical Memory: 32715 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.26f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+D:/Unity/RandomDice
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+8133
+Successfully changed project path to: D:/Unity/RandomDice
+D:/Unity/RandomDice
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 40.37 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.26f1 (7298b473bc1a)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Unity/RandomDice/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 2070 (ID=0x1f02)
+    Vendor:   
+    VRAM:     8031 MB
+    Driver:   30.0.14.9649
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56520
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.003187 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 34.81 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.675 seconds
+Domain Reload Profiling:
+	ReloadAssembly (675ms)
+		BeginReloadAssembly (76ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (504ms)
+			LoadAssemblies (73ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (167ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (30ms)
+			SetupLoadedEditorAssemblies (176ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (35ms)
+				BeforeProcessingInitializeOnLoad (18ms)
+				ProcessInitializeOnLoadAttributes (87ms)
+				ProcessInitializeOnLoadMethodAttributes (32ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.004605 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.36 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.133 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1134ms)
+		BeginReloadAssembly (169ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (19ms)
+		EndReloadAssembly (888ms)
+			LoadAssemblies (108ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (306ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (46ms)
+			SetupLoadedEditorAssemblies (335ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (94ms)
+				ProcessInitializeOnLoadAttributes (214ms)
+				ProcessInitializeOnLoadMethodAttributes (9ms)
+				AfterProcessingInitializeOnLoad (12ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
+Refreshing native plugins compatible for Editor in 0.35 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1532 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 72.1 MB.
+System memory in use after: 72.2 MB.
+
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 1964.
+Total: 2.726000 ms (FindLiveObjects: 0.140200 ms CreateObjectMapping: 0.033700 ms MarkObjects: 2.497100 ms  DeleteObjects: 0.053800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/Scripts/Dice/Dice15Mimic.cs
+  artifactKey: Guid(c3c10299e7cb5f340bce3e94ddebe208) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Dice/Dice15Mimic.cs using Guid(c3c10299e7cb5f340bce3e94ddebe208) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0155e3113e2c8d8ac18f019dbc7c0f33') in 0.043417 seconds 
+  Import took 0.045710 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005590 seconds.
+  path: Assets/Resource/BossSkill/boss_2
+  artifactKey: Guid(eb4a286472876d3428c76535294ccf19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resource/BossSkill/boss_2 using Guid(eb4a286472876d3428c76535294ccf19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7cd41947ca0ed53d1b4e7e609013d9ae') in 0.006879 seconds 
+  Import took 0.009848 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.027140 seconds.
+  path: Assets/Scripts/ObjectPool.cs
+  artifactKey: Guid(14448961bd7948c47949fcf9df400add) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ObjectPool.cs using Guid(14448961bd7948c47949fcf9df400add) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0757802a80deebb311fc5300ed64afa') in 0.005455 seconds 
+  Import took 0.007839 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.076186 seconds.
+  path: Assets/Scripts/BattleStartManager.cs
+  artifactKey: Guid(359934a841b68a74a9741bd8586be657) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/BattleStartManager.cs using Guid(359934a841b68a74a9741bd8586be657) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba1b703927174407a4083cbfae090998') in 0.004906 seconds 
+  Import took 0.007264 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004128 seconds.
+  path: Assets/Resource/BossSkill
+  artifactKey: Guid(668fac53dfa130b4c8311d58b30bf985) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resource/BossSkill using Guid(668fac53dfa130b4c8311d58b30bf985) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9367f0b0beebff0415d430e0ef8ec8c3') in 0.005171 seconds 
+  Import took 0.007515 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.026952 seconds.
+  path: Assets/Scripts/Dice/Dice7Gamble.cs
+  artifactKey: Guid(8f7a6f963eb61d0449f9a0bb777c5cad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Dice/Dice7Gamble.cs using Guid(8f7a6f963eb61d0449f9a0bb777c5cad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce82923178972cc10a89d01ae925a54f') in 0.005189 seconds 
+  Import took 0.007661 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.030823 seconds.
+  path: Assets/Resource/DiceEffect/16_sacrifice
+  artifactKey: Guid(04d1c635ebbb34a4383208d4059da93c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resource/DiceEffect/16_sacrifice using Guid(04d1c635ebbb34a4383208d4059da93c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5fc4fb169f6bce77fbd2ee4e52cb3e7e') in 0.005037 seconds 
+  Import took 0.007398 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.006865 seconds.
+  path: Assets/Scripts/Dice/Dice14Sacrifice.cs
+  artifactKey: Guid(b3a2d9c211a5c6c4789a0ad0fc26f63c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Dice/Dice14Sacrifice.cs using Guid(b3a2d9c211a5c6c4789a0ad0fc26f63c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '472cf9fa6f80fa30a0ed8128f7b399a6') in 0.005180 seconds 
+  Import took 0.007493 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.070433 seconds.
+  path: Assets/Scripts/EnemyBoss.cs
+  artifactKey: Guid(abdfb0476dc372249831fa25a0276506) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/EnemyBoss.cs using Guid(abdfb0476dc372249831fa25a0276506) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8e0d94a4dd312101f74cfa3627df431') in 0.005182 seconds 
+  Import took 0.007488 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.013519 seconds.
+  path: Assets/Scripts/PlayerStatus.cs
+  artifactKey: Guid(b743d947b8d08354b8edd9accbf4a680) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/PlayerStatus.cs using Guid(b743d947b8d08354b8edd9accbf4a680) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd8fc0645672c79ae0b5d801481e5fa6') in 0.005034 seconds 
+  Import took 0.007363 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.013764 seconds.
+  path: Assets/Scripts/Bullet.cs
+  artifactKey: Guid(9cbce9ac702f9b840b08d774ab510ca2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Bullet.cs using Guid(9cbce9ac702f9b840b08d774ab510ca2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60bda6030ff6ad05cdacb2e7a36e65f9') in 0.004959 seconds 
+  Import took 0.007245 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.046517 seconds.
+  path: Assets/Scripts/Dice/Dice11Crack.cs
+  artifactKey: Guid(bebffa63ecce53c4dbf3c26260f64379) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Dice/Dice11Crack.cs using Guid(bebffa63ecce53c4dbf3c26260f64379) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ff2680d98858753167de46cb6ca1f89') in 0.005141 seconds 
+  Import took 0.007478 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.013052 seconds.
+  path: Assets/Resource/BossSkill/boss_1
+  artifactKey: Guid(d82eed28a6f581d47a9af00cefa757bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resource/BossSkill/boss_1 using Guid(d82eed28a6f581d47a9af00cefa757bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26b18be0958c13a359307ebb9db16914') in 0.004907 seconds 
+  Import took 0.007258 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.048581 seconds.
+  path: Assets/Resource/BossSkill/boss_3
+  artifactKey: Guid(7ecea377139b04e47a843ebe41f5ff0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resource/BossSkill/boss_3 using Guid(7ecea377139b04e47a843ebe41f5ff0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97012ed777423dbae2a8ae33da5fa71e') in 0.004896 seconds 
+  Import took 0.007209 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.026686 seconds.
+  path: Assets/Scripts/EnemyManager.cs
+  artifactKey: Guid(1e46d2f912c19524399014bb5bd641ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/EnemyManager.cs using Guid(1e46d2f912c19524399014bb5bd641ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96fe3e64ec7bf0a0ad18e5f2a5200b85') in 0.004976 seconds 
+  Import took 0.007294 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.017777 seconds.
+  path: Assets/Resource/DiceEffect/17_arrow
+  artifactKey: Guid(1f6da69319cb516409160b753ca70829) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resource/DiceEffect/17_arrow using Guid(1f6da69319cb516409160b753ca70829) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2dd7e493a22742aecfca55ca19034bb3') in 0.004873 seconds 
+  Import took 0.007188 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.057837 seconds.
+  path: Assets/Resource/DiceEffect/12_thorn
+  artifactKey: Guid(1282b04615feaca41927dc28e730c2ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resource/DiceEffect/12_thorn using Guid(1282b04615feaca41927dc28e730c2ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '285eb85cc7043553d18422b2e2430132') in 0.004763 seconds 
+  Import took 0.007065 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.090371 seconds.
+  path: Assets/Resource/DiceEffect/11_light
+  artifactKey: Guid(7a9d27bbe7498af40860d8003ddd81da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resource/DiceEffect/11_light using Guid(7a9d27bbe7498af40860d8003ddd81da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5bae3ba9d5e87bdb2ff7b0b9cafad0e2') in 0.005220 seconds 
+  Import took 0.007578 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.016984 seconds.
+  path: Assets/Scripts/DiceCreateManager.cs
+  artifactKey: Guid(edecf106e78bfd042827dd1b7be4d1f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/DiceCreateManager.cs using Guid(edecf106e78bfd042827dd1b7be4d1f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5f8a4abaaa1c03a938cc65029ccdd05') in 0.005117 seconds 
+  Import took 0.007446 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.027393 seconds.
+  path: Assets/Scripts/GameManager.cs
+  artifactKey: Guid(36ff032f373d6884aaa97eb6b1814640) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/GameManager.cs using Guid(36ff032f373d6884aaa97eb6b1814640) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8dc2844174eeb8866cf64ca9c8e88948') in 0.004944 seconds 
+  Import took 0.007319 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.017753 seconds.
+  path: Assets/Resource/DiceEffect/14_critical
+  artifactKey: Guid(9a4e1ea07579f0446ac63751420afa9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resource/DiceEffect/14_critical using Guid(9a4e1ea07579f0446ac63751420afa9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '901bee42a04f32b3e783ed24a8a5e68f') in 0.005239 seconds 
+  Import took 0.007551 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.006916 seconds.
+  path: Assets/Scripts/Dice/Dice0Fire.cs
+  artifactKey: Guid(6ccf821dab8ae0e489f730b7c4e73fe9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Dice/Dice0Fire.cs using Guid(6ccf821dab8ae0e489f730b7c4e73fe9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32cec65c5dd74ecf9b8793ddf26271ca') in 0.005236 seconds 
+  Import took 0.007598 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.011045 seconds.
+  path: Assets/Resource/DiceEffect/04_poison
+  artifactKey: Guid(6c7b9d09108fc7a419cf3d06c5fd9765) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resource/DiceEffect/04_poison using Guid(6c7b9d09108fc7a419cf3d06c5fd9765) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4893913720b087eb79830d9652ffabcf') in 0.005191 seconds 
+  Import took 0.007618 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.072120 seconds.
+  path: Assets/Scenes/Game.unity
+  artifactKey: Guid(13fe96aa02fa9e7428f072b0829223b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Game.unity using Guid(13fe96aa02fa9e7428f072b0829223b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88457f1d9e77bd835de512694c4085f0') in 0.014189 seconds 
+  Import took 0.016582 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.038272 seconds.
+  path: Assets/Scripts/Dice/Dice6Broken.cs
+  artifactKey: Guid(388b0ad7c7c57f94d869070b66a6e3ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Dice/Dice6Broken.cs using Guid(388b0ad7c7c57f94d869070b66a6e3ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6dbf247bf6a8d84be261c15b98f01604') in 0.005443 seconds 
+  Import took 0.007916 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.018676 seconds.
+  path: Assets/Resource/Enemy
+  artifactKey: Guid(e3e97251c317f7649b370b6ce662813c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resource/Enemy using Guid(e3e97251c317f7649b370b6ce662813c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50c683096c1437b472498d8f633f439b') in 0.005544 seconds 
+  Import took 0.008082 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.056451 seconds.
+  path: Assets/Resource/DiceEffect/13_crack
+  artifactKey: Guid(f3cd86a5317e93c488e508021d5efa4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resource/DiceEffect/13_crack using Guid(f3cd86a5317e93c488e508021d5efa4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39c552b41e95c1a426aaadfaed2aed29') in 0.005190 seconds 
+  Import took 0.007561 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.007866 seconds.
+  path: Assets/Scripts/Dice/Dice3Poision.cs
+  artifactKey: Guid(2de17dfca20ba194f8627f66d4e98481) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Dice/Dice3Poision.cs using Guid(2de17dfca20ba194f8627f66d4e98481) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0fe592818d72fa8c47ad129c7509b9db') in 0.005633 seconds 
+  Import took 0.008217 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.007414 seconds.
+  path: Assets/Scripts/Dice/Dice9Mine.cs
+  artifactKey: Guid(e33d620c30914b4498ea9247a6fe2a1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Dice/Dice9Mine.cs using Guid(e33d620c30914b4498ea9247a6fe2a1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9a019a3af745775a310d7aa69d4e21f') in 0.005874 seconds 
+  Import took 0.008298 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.072181 seconds.
+  path: Assets/Scripts/Dice/Dice2Wind.cs
+  artifactKey: Guid(1e9b49d0200d31b4f8f8ff480b563847) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Dice/Dice2Wind.cs using Guid(1e9b49d0200d31b4f8f8ff480b563847) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8a03ede215b9e5e66ae2c04662ec72a') in 0.005620 seconds 
+  Import took 0.008002 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.020678 seconds.
+  path: Assets/Animator/Light.anim
+  artifactKey: Guid(de8b9a59817bc3d49ad2660f2bb91930) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animator/Light.anim using Guid(de8b9a59817bc3d49ad2660f2bb91930) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f14df71d8e0f5bffe0f54f385f0924a') in 0.012168 seconds 
+  Import took 0.014564 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.023830 seconds.
+  path: Assets/Resource/DiceEffect/bullet
+  artifactKey: Guid(80308bcf5091a1c4ca07d74bc68c7e27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resource/DiceEffect/bullet using Guid(80308bcf5091a1c4ca07d74bc68c7e27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f88bf5c9828d150f54f63715c3351683') in 0.004955 seconds 
+  Import took 0.007306 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.013639 seconds.
+  path: Assets/Animator/BulletEffectBuff.controller
+  artifactKey: Guid(b9b111205302c9941877fa96bcc85e66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animator/BulletEffectBuff.controller using Guid(b9b111205302c9941877fa96bcc85e66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b3410dd37fd2a37fe7fc97405a8f002') in 0.009798 seconds 
+  Import took 0.012280 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.006885 seconds.
+  path: Assets/Scripts/Dice/Dice10Light.cs
+  artifactKey: Guid(499384280470d3e4ea05e1a150257b2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Dice/Dice10Light.cs using Guid(499384280470d3e4ea05e1a150257b2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34fab0d2e586543634aa5429667ee8dc') in 0.005247 seconds 
+  Import took 0.007954 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.026709 seconds.
+  path: Assets/Animator/Ice.anim
+  artifactKey: Guid(e4e0e6e490ca695459a7337bd1381052) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animator/Ice.anim using Guid(e4e0e6e490ca695459a7337bd1381052) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72aa78444db5776770f6535ff030ed88') in 0.005696 seconds 
+  Import took 0.008052 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.012002 seconds.
+  path: Assets/Resource/DiceEffect/02_electric
+  artifactKey: Guid(8f664d1240c34fe41bab6bb747061593) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resource/DiceEffect/02_electric using Guid(8f664d1240c34fe41bab6bb747061593) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca621aae0891b21966bad35ad61f2d1b') in 0.004790 seconds 
+  Import took 0.007084 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.047629 seconds.
+  path: Assets/Scripts/Enemy.cs
+  artifactKey: Guid(bb96e30510a09924a8c0305e3687c752) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Enemy.cs using Guid(bb96e30510a09924a8c0305e3687c752) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d2d7cd0d13b37c09ca4622dd54e7ed2') in 0.001836 seconds 
+  Import took 0.004164 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.007063 seconds.
+  path: Assets/Animator/Critical.anim
+  artifactKey: Guid(da6762eb11697a84ca036075dd5c6625) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animator/Critical.anim using Guid(da6762eb11697a84ca036075dd5c6625) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0cf9f6bf456f12fbeef83e48933b8e1c') in 0.005783 seconds 
+  Import took 0.008124 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.048246 seconds.
+  path: Assets/Scripts/Dice/Dice4Ice.cs
+  artifactKey: Guid(9af2f9f134610044fb1c1e4c1cd482f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Dice/Dice4Ice.cs using Guid(9af2f9f134610044fb1c1e4c1cd482f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2cd0143b6c5398ebd078533541f01468') in 0.005337 seconds 
+  Import took 0.007783 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.158932 seconds.
+  path: Assets/Scenes
+  artifactKey: Guid(869c4f404ee47c34882f5789bdfb0515) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes using Guid(869c4f404ee47c34882f5789bdfb0515) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70f0d57c8ca471fc3565a59db7916592') in 0.004956 seconds 
+  Import took 0.007249 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.014090 seconds.
+  path: Assets/Scripts/Dice/Dice5Iron.cs
+  artifactKey: Guid(a2db8b15dd01ca148b98546c116623d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Dice/Dice5Iron.cs using Guid(a2db8b15dd01ca148b98546c116623d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d10f270883e1d04ec7d176acfe8d1c0') in 0.005267 seconds 
+  Import took 0.007646 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.020707 seconds.
+  path: Assets/Scripts/AIBehavior.cs
+  artifactKey: Guid(cf5014a4ddf7ce647a4a5619c7fdb778) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/AIBehavior.cs using Guid(cf5014a4ddf7ce647a4a5619c7fdb778) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b556b70825b001fc98f53925462696b') in 0.005472 seconds 
+  Import took 0.007807 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.046622 seconds.
+  path: Assets/Scripts/Dice/Dice1Electric.cs
+  artifactKey: Guid(df4280fc8cfb14b4d8c9fd780ee5babc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Dice/Dice1Electric.cs using Guid(df4280fc8cfb14b4d8c9fd780ee5babc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0d7c50fc6892f473dca818c6901246d') in 0.005314 seconds 
+  Import took 0.007801 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.082534 seconds.
+  path: Assets/Scripts/Dice/Dice.cs
+  artifactKey: Guid(2073052c1f882a945ac1b663dc246adb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Dice/Dice.cs using Guid(2073052c1f882a945ac1b663dc246adb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6685d77afcf91a1610b1ad997da056e') in 0.004908 seconds 
+  Import took 0.007272 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
